@@ -57,7 +57,7 @@ p {
 }
 
 .photo-card {
-    flex-basis: calc((100% - 10%) / 4);
+    /* flex-basis: calc((100% - 10%) / 4); */
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 4px 2px 2px #999696;
@@ -83,20 +83,21 @@ p {
     justify-content: space-between;
 }
 
-.gallery__link {
+.gallery-link {
     text-decoration: none;
     color: inherit;
 }
 
-.img {
+img {
     display: block;
+    height: 200px;
     width: 100%;
     object-fit: cover;
 }
 
 .load-more {
     display: none;
-    margin: 16 auto 0 auto;
+    margin: 40px auto;
     cursor: pointer;
     padding: 10px;
     background-color: #4440F6;
